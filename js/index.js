@@ -32,82 +32,17 @@ console.log(typeof newBooks)
 //Seleciona o elemento principal
 const main = document.querySelector("#app");
 
-// const title = document.createTextNode(book.title);
-// const author = document.createTextNode(newBooks[0].author);
-// const literary = document.createTextNode(newBooks[0].literary);
-// const category = document.createTextNode(newBooks[0].category);
-// const synopsis = document.createTextNode(newBooks[0].synopsis);
-
 /**
  * PARTE 4
  * 1. Inserir dados no HTML
  * 2. Criar função para recarregar dados
  * 3. Função remove elemento principal dos livros
  */
-// const books = document.createElement("div")
-// books.setAttribute('id', 'books');
-// main.appendChild(books)
 
 function recarregarEscolaLiteraria(data){
 
     const collection = data ? data : newBooks;
 
-    // if(!data){
-    //     console.log('NONE DATA SENT TO RELOAD BOOKS')
-    //     console.log('DEFAULT BOOKS DATA', newBooks)
-    //     newBooks.forEach((book, index) => {
-    //         const content = document.createElement("div");
-    //         content.innerHTML = `
-    //             <div class="card mb-3 p-2" style="max-width: 540px;">
-    //                 <div class="row g-0">
-    //                     <div class="col-md-4">
-    //                     <a href="${book.link}" target="_blank" style="text-decoration:none">
-    //                         <img src="/images/capa${index+1}.jpg" class="img-fluid rounded mx-auto d-block" alt="${book.title}">
-    //                     </a>
-    //                     </div>
-    //                     <div class="col-md-8">
-    //                     <div class="card-body">
-    //                         <h5 class="card-title">${book.title}
-    //                         <small class="text-muted">${book.author}</small></h5>
-    //                         <p class="card-title"><strong>Sinopse</strong></p>
-    //                         <p class="card-text">${book.synopsis}</p>
-    //                         <p class="card-text"><small class="text-muted">Escola literária: ${book.literary} <br /> Categoria: ${book.category}</small></p>
-    //                     </div>
-    //                     </div>
-    //                 </div>
-    //             </div>
-    //         `;
-    //         main.appendChild(content)
-    //     });
-    // }else{
-    //     console.log('DATA SENT TO RELOAD BOOKS', data)
-    //     data.forEach((book, index) => {
-    //         const content = document.createElement("div");
-    //         content.innerHTML = `
-    //             <div class="card mb-3 p-2" style="max-width: 540px;">
-    //                 <div class="row g-0">
-    //                     <div class="col-md-4">
-    //                     <a href="${book.link}" target="_blank" style="text-decoration:none">
-    //                         <img src="/images/capa${index+1}.jpg" class="img-fluid rounded mx-auto d-block" alt="${book.title}">
-    //                     </a>
-    //                     </div>
-    //                     <div class="col-md-8">
-    //                     <div class="card-body">
-    //                         <h5 class="card-title">${book.title}
-    //                         <small class="text-muted">${book.author}</small></h5>
-    //                         <p class="card-title"><strong>Sinopse</strong></p>
-    //                         <p class="card-text">${book.synopsis}</p>
-    //                         <p class="card-text"><small class="text-muted">Escola literária: ${book.literary} <br /> Categoria: ${book.category}</small></p>
-    //                     </div>
-    //                     </div>
-    //                 </div>
-    //             </div>
-    //         `;
-    //         main.appendChild(content)
-    //     });
-    // }
-    
-    // console.log('DATA SENT TO RELOAD BOOKS', collection)
     /**
      * Inserir dados no HTML
      */

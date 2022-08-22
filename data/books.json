@@ -1,0 +1,101 @@
+[
+    {
+        "cover": "/images/capa1.jpg",
+        "title": "É assim que acaba",
+        "author": "Colleen Hoover",
+        "literary": "Brasileira",
+        "category": "Mais vendidos",
+        "synopsis": "O romance mais pessoal da carreira de Colleen Hoover, É assim que acaba discute temas como violência doméstica e abuso psicológico de forma sensível e direta.",
+        "link": "https://www.amazon.com.br/Assim-que-Acaba-Colleen-Hoover/dp/8501112518/ref=zg_bs_books_sccl_1/144-9349940-8694068?pd_rd_i=8501112518&psc=1"
+    },
+
+    {
+        "cover": "/images/capa2.jpg",
+        "title": "Verity",
+        "author": "Colleen Hoover",
+        "literary": "Estrangeira",
+        "category": "Mais vendidos",
+        "synopsis": "Um casal apaixonado. Uma intrusa. Três mentes doentias.",
+        "link": "https://www.amazon.com.br/Verity-Colleen-Hoover/dp/8501117846/ref=zg_bs_books_sccl_2/144-9349940-8694068?pd_rd_i=8501117846&psc=1"
+    },
+
+    {
+        "cover": "/images/capa3.jpg",
+        "title": "As obras revolucionárias de George Orwell - Box com 3 livros",
+        "author": "George Orwell",
+        "literary": "Estrangeira",
+        "category": "Mais vendidos",
+        "synopsis": "George Orwell é um dos escritores mais importantes do século XX. Foi autor de romances, ensaios, críticas e artigos jornalísticos, com textos de fácil compreensão, inteligentes e críticos, apontando as injustiças sociais. Suas obras trazem oposição ao totalitarismo, o que as tornaram influentes na cultura popular, mas também na política. Conheça a essência de Orwell em 1984, A revolução dos bichos e Dentro da baleia e outros ensaios.",
+        "link": "https://www.amazon.com.br/As-obras-revolucion%C3%A1rias-George-Orwell/dp/B08ZK6N3XZ/ref=zg_bs_books_sccl_3/144-9349940-8694068?pd_rd_i=B08ZK6N3XZ&psc=1"
+    },
+
+    {
+        "cover": "/images/capa4.jpg",
+        "title": "Novembro, 9",
+        "author": "Colleen Hoover",
+        "literary": "Brasileira",
+        "category": "Mais vendidos",
+        "synopsis": "Novembro, 9 é uma história de amor inesquecível entre um aspirante a escritor e sua musa improvável. Da autora da série Hopeless.",
+        "link": "https://www.amazon.com.br/Novembro-9-Colleen-Hoover/dp/8501076252/ref=zg_bs_books_sccl_4/144-9349940-8694068?pd_rd_i=8501076252&psc=1"
+    },
+
+    {
+        "cover": "/images/capa5.jpg",
+        "title": "Todas as suas (im)perfeições",
+        "author": "Colleen Hoover",
+        "literary": "Estrangeira",
+        "category": "Mais vendidos",
+        "synopsis": "Um inesquecível drama da autora de Verity e É assim que acaba sobre um casamento conturbado e uma promessa esquecida que pode ser capaz de salvá-lo.",
+        "link": "https://www.amazon.com.br/Todas-as-suas-im-perfei%C3%A7%C3%B5es/dp/8501117684/ref=zg_bs_books_sccl_5/144-9349940-8694068?pd_rd_i=8501117684&psc=1"
+    },
+
+    {
+        "cover": "/images/capa6.jpg",
+        "title": "A Biblioteca da Meia-Noite",
+        "author": "Matt Haig",
+        "literary": "Estrangeira",
+        "category": "Mais vendidos",
+        "synopsis": "A Biblioteca da Meia-Noite é um romance incrível que fala dos infinitos rumos que a vida pode tomar e da busca incessante pelo rumo certo.",
+        "link": "https://www.amazon.com.br/Biblioteca-Meia-Noite-Matt-Haig/dp/6558380544/ref=zg_bs_books_sccl_6/144-9349940-8694068?pd_rd_i=6558380544&psc=1"
+    },
+
+    {
+        "cover": "/images/capa7.jpg",
+        "title": "O príncipe cruel (Vol. 1 O Povo do Ar)",
+        "author": "Holly Black",
+        "literary": "Brasileira",
+        "category": "Mais vendidos",
+        "synopsis": "O prínicipe cruel é o primeiro volume da série best-seller O Povo do Ar.",
+        "link": "https://www.amazon.com.br/pr%C3%ADncipe-cruel-Vol-Povo-Ar/dp/850111555X/ref=zg_bs_books_sccl_7/144-9349940-8694068?pd_rd_i=850111555X&psc=1"
+    },
+
+    {
+        "cover": "/images/capa8.jpg",
+        "title": "O homem mais rico da Babilônia",
+        "author": "George S Clason",
+        "literary": "Estrangeira",
+        "category": "Mais vendidos",
+        "synopsis": "Com mais de dois milhões de exemplares vendidos no mundo todo, O homem mais rico da Babilônia é um clássico sobre como multiplicar riqueza e solucionar problemas financeiros.",
+        "link": "https://www.amazon.com.br/Homem-Mais-Rico-Babil%C3%B4nia/dp/8595081530/ref=zg_bs_books_sccl_8/144-9349940-8694068?pd_rd_i=8595081530&psc=1"
+    },
+
+    {
+        "cover": "/images/capa9.jpg",
+        "title": "Carmilla - A vampira de Karnstein +: O Vampiro, de John William Polidori",
+        "author": "Le Fanu J. Sheridan",
+        "literary": "Estrangeira",
+        "category": "Mais vendidos",
+        "synopsis": "Essa edição traz a primeira vampira da história e também a primeira história de vampiro já escrita em projeto gráfico especial, com curiosidades sobre as obras e os autores. Carmilla é uma obra precursora da temática de vampiros, considerada por muitos críticos como a melhor do século XIX, pela maneira como trabalha o suspense e o erotismo. Foi a partir dela que Drácula, de Bram Stoker, recebeu suas principais características. A vampira de Karnstein se torna o motivo dos horrores e depois do desejo profundo de Laura, uma jovem que vive somente na companhia do pai em um castelo isolado no Leste Europeu. O Vampiro, de John William Polidori, concretizou as lendas folclóricas sobre vampiro e deu a ele a cara que tem ainda hoje: um demônio aristocrata que ataca entre a alta sociedade.",
+        "link": "https://www.amazon.com.br/Carmilla-vampira-Karnstein-Vampiro-Polidori/dp/6555791047/ref=zg_bs_books_sccl_9/144-9349940-8694068?pd_rd_i=6555791047&psc=1"
+    },
+
+    {
+        "cover": "/images/capa10.jpg",
+        "title": "Como o Rei de Elfhame aprendeu a odiar histórias",
+        "author": "Holly Black",
+        "literary": "Estrangeira",
+        "category": "Mais vendidos",
+        "synopsis": "Retorne, em Como o Rei de Elfhame aprendeu a odiar histórias, ao cativante e irresistível universo da série best-seller O Povo do Ar.",
+        "link": "https://www.amazon.com.br/Como-Elfhame-aprendeu-odiar-hist%C3%B3rias/dp/6555872497/ref=zg_bs_books_sccl_10/144-9349940-8694068?pd_rd_i=6555872497&psc=1"
+    }
+]

@@ -13,6 +13,7 @@
         <h1 class="text-center">TCC Literatura</h1>
         <div class="p-2 mt-2">
             <input class="form-control form-control-sm" type="text" placeholder="Pesquise pelo título" aria-label=".form-control-sm example" id="search">
+            <small class="text-primary" id="clearSearch">Limpar</small>
         </div>
         <div class="p-2 mb-2">
             <strong>Escola literária</strong> &nbsp;&nbsp;&nbsp;
@@ -40,23 +41,27 @@
         <script type="module">
             import {escolaLiterariaEstrangeira, escolaLiterariaBrasileira, escolaLiterariaTodas, searchBook} from './js/index.js'
 
+            //Filtro escola Estrangeira
             document.querySelector("#escolaLiterariaEstrangeira").addEventListener('click', () => {
                 console.log('CLICK BY EVENT LISTENER, escolaLiterariaEstrangeira!')
                 escolaLiterariaEstrangeira();
             });
 
+            //Filtro escola Brasileira
             document.querySelector("#escolaLiterariaBrasileira").addEventListener('click', () => {
                 console.log('CLICK BY EVENT LISTENER, escolaLiterariaBrasileira!')
                 escolaLiterariaBrasileira();
             });
 
+            //Filtro todas escolas
             document.querySelector("#escolaLiterariaTodas").addEventListener('click', () => {
                 console.log('CLICK BY EVENT LISTENER, escolaLiterariaTodas!')
                 escolaLiterariaTodas();
             });
 
-            const pesquisar = document.querySelector('#search');
+            //Pesquisa livro
             let selecao = null;
+            let pesquisar = document.querySelector('#search');
             pesquisar.addEventListener('keypress', (e) => {
                 if(e.key === "Enter"){
                     event.preventDefault();
@@ -85,6 +90,13 @@
                     searchBook(pesquisar.value.toLowerCase(), selecao);
                 }
             });
+        
+            //CRIAR LIMPAR CAMPO DE BUSCA AO SELECIONAR TIPO DE ESCOLA
+            document.querySelector('#clearSearch').addEventListener('click', (e) => {
+                e.preventDefault();
+                pesquisar.value = ''
+                escolaLiterariaTodas();
+            })
         </script>
     </div>
 </body>

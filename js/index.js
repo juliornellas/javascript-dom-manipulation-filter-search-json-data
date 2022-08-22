@@ -113,7 +113,12 @@ export function escolaLiterariaTodas(){
  * Search livro
  */
 export function searchBook(data, literary){
-    const filtro = newBooks.filter((book) => book.title.toLowerCase().includes(data) && book.literary === literary);
+
+    console.log('LITERARY', literary)
+
+    const filtro = literary === 'Todas' ? 
+    newBooks.filter((book) => book.title.toLowerCase().includes(data))
+    : newBooks.filter((book) => book.title.toLowerCase().includes(data) && book.literary === literary)
 
     //Verifica se coleção é VAZIA
     filtro.length == 0
